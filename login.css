@@ -1,0 +1,213 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family:Hervatica;
+	color:white;
+	background-color: #FDFEFE;
+	min-width:800;
+	max-width:1200;
+	margin: 0 auto;
+}
+#logo{
+margin-left: 20px;
+    height: 35px;
+    width: 160px;
+}
+.button{
+    border-bottom: solid 2px #555555;
+    border-right: solid 2px #bbbbbb;
+    border-radius: 10px;
+    margin: 10;
+    width: 95;
+    cursor: pointer;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 15px;
+    text-decoration: none;
+    float: right;
+}
+.projectName{
+    font-family: 'Oswald', sans-serif;
+    background-color: #eee;
+    padding: 1px 20px;
+    position: relative;
+    cursor: default;
+    color: #99A3A4;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #eee;
+}
+footer{
+	margin: 0 auto;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color:white;
+	padding: 0px;
+}
+#page-banner {
+    background: #eee ;
+    padding: 10px 0;
+}
+#page-banner-down{
+    background: #eeeeee;
+    padding: 1px;
+}
+.social-footer-icons{
+    position: relative;
+    left: 75%;
+	bottom:230px;
+}
+#icons{
+	width: 50px;
+	height:50px; 
+	style:margin-right:5px;
+}
+#page-banner h1, #page-banner p{
+    width: 100%;
+    text-align: left;
+    margin: 10px 0;
+}
+.contact_info .phone_number {
+	font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+	padding:8px;
+}
+h3{
+	font-size: 20px;
+    font-weight: bold;
+    color: black;
+	padding:8px;
+}
+#adress{
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: black;
+	padding:8px;
+}
+.contact_info p {
+    font-size: 14px;
+    font-weight: bold;
+	font-family: 'Lato', sans-serif;
+    color: black;
+	padding:8px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  float:right;
+}
+button:hover {
+  opacity: 0.8;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+.imgcontainer1{
+    text-align: left;
+    margin: 30px 5 12px 0;
+    position: relative;
+}
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 0px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #55555591;
+    margin: 12% auto 15% auto;
+    border: 1px solid #846212;
+    width: 40%;
+    border-radius: 8px;
+
+}
+.close {
+    position: absolute;
+    right: 25px;
+    top: -20px;
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn, .signupbtn {
+     width: 50%;
+  }
+}
+/*------------------------------------CSS styles for register form*/
+

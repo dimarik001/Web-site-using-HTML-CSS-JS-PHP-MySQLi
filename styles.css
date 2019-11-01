@@ -1,0 +1,247 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: F1 regular;
+	color:white;
+	background-color: #FDFEFE;
+	min-width:800;
+	max-width:1200;
+	margin: 0 auto;
+}
+#logo{
+margin-left: 20px;
+    height: 35px;
+    width: 160px;
+}
+.projectName{
+    font-family: 'Oswald', sans-serif;
+    background-color: #eee;
+    padding: 1px 20px;
+    position: relative;
+    cursor: default;
+    color: #99A3A4;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #eee;
+}
+#search input {
+    float: right;
+    width: 80%;
+    position: relative;
+    max-width: 200;
+    margin: 12px 15px;
+    display: block;
+    padding: 6px 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #444;
+}
+.button{
+    border-bottom: solid 2px #555555;
+    border-right: solid 2px #bbbbbb;
+    border-radius: 10px;
+    margin: 10;
+    width: 95;
+    cursor: pointer;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px 15px;
+    text-decoration: none;
+    float: right;
+}
+
+#moto-list, #tabbed-content{
+    margin: 10px;
+}
+
+#moto-list ul, #tabbed-content ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#moto-list li{
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+}
+
+#moto-list li:hover{
+    border-color: #9361bf;
+}
+
+.edit{
+    float: right;
+    background: #616161;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    width: 100px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.edit:hover{
+    background: #333;
+}
+#myImg, #myImg1, #myImg2, #myImg3, #myImg4, #myImg5,
+#myImg6, #myImg7, #myImg8{
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 33%;
+    height: auto;
+    padding: 2px;
+}
+
+#myImg:hover {opacity: 0.7;}
+#myImg1:hover {opacity: 0.7;}
+#myImg2:hover {opacity: 0.7;}
+#myImg3:hover {opacity: 0.7;}
+#myImg4:hover {opacity: 0.7;}
+#myImg5:hover {opacity: 0.7;}
+#myImg6:hover {opacity: 0.7;}
+#myImg7:hover {opacity: 0.7;}
+#myImg8:hover {opacity: 0.7;}
+
+.modal {
+
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.9); 
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes zoom {
+  from {transform: scale(0.1)} 
+  to {transform: scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+footer{
+	margin: 0 auto;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color:white;
+	padding: 0px;
+}
+#page-banner {
+    background: #eee ;
+    padding: 10px 0;
+
+}
+
+#page-banner-down{
+    background: #eeeeee;
+    padding: 1px;
+}
+.social-footer-icons{
+    position: relative;
+    left: 75%;
+    padding: 20px;
+	bottom:230px;
+}
+#icons{
+	width: 50px;
+	height:50px; 
+	style:margin-right:5px;
+}
+#page-banner h1, #page-banner p{
+    width: 100%;
+    text-align: left;
+}
+.contact_info .phone_number {
+	font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+	padding:8px;
+}
+h3{
+	font-size: 20px;
+    font-weight: bold;
+    color: black;
+	padding:8px;
+}
+#adress{
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: black;
+	padding:8px;
+}
+.contact_info p {
+    font-size: 14px;
+    font-weight: bold;
+	font-family: 'Lato', sans-serif;
+    color: black;
+	padding:8px;
+}
